@@ -52,7 +52,6 @@ public class Main {
             System.out.printf("«Если возраст ребенка равен %s, то ему можно кататься на аттракционе без сопровождении " +
                     "взрослого».%n",childAge);
 
-
         System.out.println("\nTask 6");
         int amountOfPeople = 99;
         if (amountOfPeople < 60) {
