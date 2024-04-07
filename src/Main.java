@@ -11,8 +11,8 @@ public class Main {
         }
 
         System.out.println("\nTask 2");
-        int temperature = 5;
-        if (temperature < 5)
+        int temperature = 6;
+        if (temperature <= 5)
         {
             System.out.printf("«На улице %s градусов, на улице холодно, нужно надеть шапку».%n",temperature);
         } else {
@@ -42,25 +42,25 @@ public class Main {
         }
 
         System.out.println("\nTask 5");
-        int childAge = 14;
+        int childAge = 15;
         if (childAge < 5) {
             System.out.printf("«Если возраст ребенка равен %s, то ему нельзя кататься на аттракционе».%n",childAge);
         } else if (childAge >= 5 && childAge < 14) {
             System.out.printf("«Если возраст ребенка равен %s, то ему можно кататься на аттракционе в сопровождении " +
                     "взрослого».%n",childAge);
         } else if (childAge >= 14)
-            System.out.printf("«Если возраст ребенка равен %s, то ему можно кататься на аттракционе без сопровождении " +
+            System.out.printf("«Если возраст ребенка равен %s, то ему можно кататься на аттракционе без сопровождения " +
                     "взрослого».%n",childAge);
 
         System.out.println("\nTask 6");
-        int amountOfPeople = 99;
+        int amountOfPeople = 102;
         if (amountOfPeople < 60) {
             System.out.println("«Есть свободные сидячие места.»");
         }
         else if (amountOfPeople < 102) {
             System.out.println("«Сидячие места заняты. Остались только стоячие места.»");
         }
-        if (amountOfPeople >= 102) {
+        else {
             System.out.println("«Мест нет.»");
         }
 
